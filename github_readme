@@ -1,0 +1,57 @@
++Welcome.
+
++All credit is due to the creators of PHPlicensewatcher found at http://phplicensewatch.sourceforge.net/
+
++
+
++This repository is the code probject that added CAS authentication to the PHPlicensewatcher and modified the code as needed to make it work on my system.  
+
++
+
++I will attempt to bracket all of my changes within lines:
+
++<!-- bjday added
+
++<!-- end bjday
+
++or
+
++#bjday added
+
++#bjday end
+
++
+
++there is a switch variable in the config_cas.php file that turn on or off CAS authentication
+
++
+
++
+
++HOW TO USE THIS
+
++first place welcome.php at the head of your html directory.
+
++
+
++mkdir phplicensewatcher  in that same level
+
++
+
++copy all files to phplicensewatcher except welcome.php
+
++
+
++edit welcome.php to use your servername and point the redirect to location of admin.php also ether add link to config_cas.php to the same directory as welcome.php or modiefy welcome.php to point to config_cas.php
+
++
+
++edit config_cas.php to work with your cas system or change disable_cas variable to 1
+
++
+
++point your web browser to the check_installation.php  it is not CAS authenticated.  Make sure all work except for i4blt it is not used or atleast I do not know what it is used for.  
+
++
+
++Follow the phpLicensewatcher install directions if there are problems.
